@@ -9,7 +9,7 @@ public class Problem3 {
             if(arr[i]>max){
                 secondmax=max;
                 max=arr[i];
-            } else if (secondmax!=max && secondmax<max) {
+            } else if (arr[i]!=secondmax && arr[i]>secondmax) {
                 secondmax=arr[i];
             }
         }
