@@ -13,4 +13,5 @@ public class Problem2 {
             System.out.println("String is Not Palindrome");
         }
     }
+
 }
