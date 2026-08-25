@@ -24,3 +24,4 @@ public class Problem11 {
         System.out.println(found);
     }
 }
+
