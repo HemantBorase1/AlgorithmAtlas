@@ -1,5 +1,8 @@
 package com.String;
 
+/*
+* Find Duplicate Character
+* */
 public class Problem13 {
     public static void main(String[] args){
         String str="success";
