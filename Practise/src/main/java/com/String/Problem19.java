@@ -27,8 +27,8 @@ public class Problem19 {
             for(int i=0;i<str1.length();i++){
                 char c=str1.charAt(i);
                 for(int j=0;j<str2.length();j++){
-                    if(c==str2.charAt(j)){
-                        b=true;
+                    if(c==str2.charAt(j)) {
+                        b = true;
                         break;
                     }
                 }
