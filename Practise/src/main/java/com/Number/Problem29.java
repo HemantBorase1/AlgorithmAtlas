@@ -12,6 +12,6 @@ public class Problem29 {
             }
             n/=10;
         }
-        System.out.println("Max Digit"+max);
+        System.out.println("Max Digit: "+max);
     }
 }
