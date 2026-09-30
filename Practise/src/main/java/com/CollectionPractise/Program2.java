@@ -1,17 +1,23 @@
 package com.CollectionPractise;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.SortedSet;
+import java.util.*;
 
 public class Program2 {
     public static void main(String[] args){
 
-        List l=new ArrayList<>();
-        l.add(12);
-        l.add(13);
+//        LinkedList  ll=new LinkedList<>();
+//        ll.add("Hello");
+//        ll.add(10);
+//        ll.add(null);
+//        ll.add(7.17);
+//        ll.add(7.17);
+//        System.out.println(ll);
 
-        l.remove(1);
-        System.out.println(l);
+        Vector v=new Vector();
+       v.add(10);
+       v.add("Hemant");
+       v.add(7);
+       v.hashCode();
+        System.out.println(v);
     }
 }
